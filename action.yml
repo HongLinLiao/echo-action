@@ -22,5 +22,5 @@ runs:
   steps:
     - run: echo User - ${{ inputs.user }}
       shell: bash
-    - run: echo ${{ inputs.echo.text }}
+    - run: echo ${{ inputs.echo-text }}
       shell: bash
